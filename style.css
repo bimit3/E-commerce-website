@@ -304,6 +304,11 @@ header.sticky {
         padding: 10px 20px;
         transition: .4s;
     }
+    .down-arrow{
+        position: absolute;
+        top: 94%;
+        right: 5%;
+    }
     .down i{
         font-size: 15px;
         color: #2c2c2c;
@@ -401,5 +406,8 @@ header.sticky {
         align-items: center;
         padding: 120px 30px;
         transition: right .42s ease-in-out;
+    }
+    #menu-icon {
+        font-size: 22px;
     }
 }
